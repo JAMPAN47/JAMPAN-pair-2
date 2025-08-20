@@ -1,0 +1,17 @@
+
+    "name": "jampan Session Generator",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/ikwl2b.jpg",
+    "repository": "https://github.com/JAMPAN47/JAMPAN-pair-2",
+    "keywords": ["JAMPAN47"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
